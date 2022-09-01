@@ -1,0 +1,16 @@
+
+.media {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    background: black;
+}
+.media video{
+    margin-top: 87px;
+    width: 100%;
+    height:  1%;
+    opacity: 55%;
+}
+
+
