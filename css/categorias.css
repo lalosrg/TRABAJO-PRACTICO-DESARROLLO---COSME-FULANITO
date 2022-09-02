@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 1100px;
+    height: 1050px;
     background: white;
 }
 
@@ -12,6 +12,7 @@
     /*display: flex; */
     justify-content: center;
     align-items: center;
+    margin-bottom: 75px;
 }
 
 .contenedor-categorias figure {
