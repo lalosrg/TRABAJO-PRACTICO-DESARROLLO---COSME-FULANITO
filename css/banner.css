@@ -1,12 +1,12 @@
 
 
-
 .media {
     display: flex;
     align-items: center;
-    height: 790px;
+    height: 687px;
     width: 100%;
-    background: #e59185;
+    background: #995f59;
+    opacity: 97%;
 }
 
 
