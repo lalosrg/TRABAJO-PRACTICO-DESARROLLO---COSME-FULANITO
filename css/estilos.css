@@ -24,7 +24,7 @@ header {
     background-color: #f3d424;
     padding: 10px;
 
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
