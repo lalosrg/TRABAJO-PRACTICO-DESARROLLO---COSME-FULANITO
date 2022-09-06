@@ -1,13 +1,28 @@
 
 
 .media {
-    display: flex;
+  
     align-items: center;
     height: 687px;
     width: 100%;
-    background: #995f59;
-    opacity: 97%;
+    background: #d68a80;
+    z-index: 1;
+    
 }
+
+ 
+.banner-overlay {
+    height: 687px;
+    width: 100%;
+    position: absolute;
+    background: black;
+   opacity: 20%;
+   z-index: 3;
+}
+
+
+
+
 
 
 

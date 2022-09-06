@@ -10,14 +10,14 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 800px;
+    height: 700px;
 
 }
 
 
 
 #contacto section h2 {
-        margin-top: 40px;
+        margin-top: 45px;
          color: black;
         font-size: 35px;
         text-align: center;
@@ -58,7 +58,7 @@ background: #b1b1b17a;
 border: 2px solid #070707;
 border-radius: 15px;
 margin-top: 10px;
-margin-bottom: 10px;
+margin-bottom: 5px;
 padding: 10px;
 width: 400px;
 }
@@ -88,4 +88,22 @@ background-color: #f3d424;
 color: #080808;
 font-weight: bold;
 border: 2px solid;
+}
+
+.btn a{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    background-color: #f3d424;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.btn a:hover {
+    background: black;
+    color: white;
 }

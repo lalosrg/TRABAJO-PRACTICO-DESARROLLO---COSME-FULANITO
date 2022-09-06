@@ -1,0 +1,128 @@
+#contenedor-nosotros{
+    width: 100%;
+    color: black;
+}
+
+
+
+.desc-general{
+    width: 100%;
+    height: 350px;
+}
+
+
+.desc-general h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.desc-general p{
+    font-size: 16px;
+    text-align: center;
+    margin: 30px 90px 0px 90px;
+}
+
+
+#contenedor-nosotros .lalo{
+    width: 50%;
+    height: 350px;
+    
+}
+
+#contenedor-nosotros .lalo h2{
+    text-align: center;
+    font-size: 35px;
+   
+    
+}
+
+#contenedor-nosotros .lalo p{
+    text-align: left;
+    margin-top: 30px;
+    display: flex;
+    font-size: 14px;
+    margin: 15px 70px 15px 70px;
+}
+
+
+#contenedor-nosotros .img-lalo {
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-top: -400px;
+    margin-right: 350px;
+}
+
+#contenedor-nosotros .img-lalo img{
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+#contenedor-nosotros .luisma{
+    float: right;
+    width: 50%;
+    height: 350px;
+    
+}
+
+#contenedor-nosotros .luisma h2{
+    text-align: center;
+    font-size: 35px;
+   
+    
+}
+
+#contenedor-nosotros .luisma p{
+    text-align: left;
+    margin-top: 30px;
+    display: flex;
+    font-size: 14px;
+    margin: 15px 70px 15px 70px;
+}
+
+
+#contenedor-nosotros .img-luisma {
+    width: 250px;
+    height: 250px;
+    margin-left: 350px;
+    margin-top: -45px;
+}
+
+.img-luisma img{
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+#contenedor-nosotros .alvaro{
+    margin-top: 100px;
+    width: 50%;
+    height: 350px;
+}
+
+#contenedor-nosotros .alvaro h2{
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+#contenedor-nosotros .alvaro p{
+    text-align: left;
+    margin-top: 30px;
+    display: flex;
+    font-size: 14px;
+    margin: 15px 70px 15px 70px;
+}
+
+#contenedor-nosotros .img-alvaro{
+    width: 250px;
+    height: 250px;
+  
+}
+
+
+
