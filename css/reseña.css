@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height:  450px;
+    height:  500px;
     background: white;
 }
 
@@ -29,7 +29,7 @@
     margin: auto;
     perspective: 1000px;
     position: relative;
-    margin-bottom: 240px;
+    margin-bottom: 270px;
 }
 
 .content-carousel{
