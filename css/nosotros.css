@@ -2,12 +2,13 @@
     width: 100%;
     height: 100%;
     color: black;
+    background: rgb(248, 246, 246);
 }
 
 
 .general {
     margin-top: 90px;
-    background: #95da151f;
+    background: #95da1534;
     display: flex;
 }
 
