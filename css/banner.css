@@ -1,27 +1,29 @@
-
-
-.media {
-  
-    align-items: center;
-    height: 687px;
+.banner_principal{
+    margin-top: 90px;
     width: 100%;
-    background: #d68a80;
-    z-index: 1;
+    height: 650px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: linear-gradient(to right, #2468ac7c, #6b707481), url(../img/775120.jpg);   /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2468ac71, #6b707481), url(../img/775120.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.banner_principal .desa h2{
+    font-size: 6rem;
+    top: 220px;
+    left: 580px;
+    position: relative;
     
+    text-shadow: 0 0 30px rgb(255, 255, 255); 
 }
 
- 
-.banner-overlay {
-    height: 687px;
-    width: 100%;
+.ola {
     position: absolute;
-    background: black;
-   opacity: 20%;
-   z-index: 3;
+    bottom: 0;
+    width: 100%;
 }
-
-
-
 
 
 

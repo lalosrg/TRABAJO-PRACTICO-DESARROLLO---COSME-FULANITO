@@ -115,14 +115,14 @@
 .card_desarrollos .detalles .comprar .btn_detalles{
     background: #fff;
     padding: 0;
-    padding: 15px;
+    padding: 10px;
     font-size: 25px;
     border-radius: 25px;
 }
 
 .card_desarrollos .detalles .comprar .btn_detalles a{
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
 }
 
 .card_desarrollos .detalles .comprar .btn_detalles:hover{

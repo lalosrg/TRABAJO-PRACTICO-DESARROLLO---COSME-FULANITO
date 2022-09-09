@@ -1,41 +1,46 @@
+
+
+.media {
+  
+    align-items: center;
+    height: 687px;
+    width: 100%;
+    background: #d68a80;
+    z-index: 1;
+    
+}
+
+
+ 
+.banner-overlay {
+    height: 687px;
+    width: 100%;
+    position: absolute;
+    background: black;
+   opacity: 20%;
+   z-index: 3;
+}
+
 #contenedor-nosotros{
     width: 100%;
-    height: 100%;
+    height: 1600px;
     color: black;
-    background: rgb(248, 246, 246);
+    background: #fff;
 }
 
 
-.general {
-    margin-top: 90px;
-    background: #95da1534;
-    display: flex;
-}
 
-
-.desc-general{
-    width: 100%;
-    height: 250px;
-}
-
-
-.desc-general h2{
+.desc_general h2{
     font-size: 35px;
     text-align: center;
-    margin-top: 30px;
-}
-
-.desc-general p{
-    font-size: 16px;
-    text-align: center;
-    margin: 30px 90px 0px 90px;
+    position: relative;
+    top: 30px;
 }
 
 
 #contenedor-nosotros .lalo{
     width: 50%;
-    height: 350px;
-    
+    height: 500px;
 }
 
 #contenedor-nosotros .lalo h2{
@@ -59,7 +64,7 @@
     width: 250px;
     height: 250px;
     float: right;
-    margin-top: -380px;
+    margin-top: -430px;
     margin-right: 350px;
 }
 
@@ -73,13 +78,14 @@
 #contenedor-nosotros .luisma{
     float: right;
     width: 50%;
-    height: 350px;
+    height: 500px;
     
 }
 
 #contenedor-nosotros .luisma h2{
     text-align: center;
     font-size: 35px;
+    margin-top: -85px;
    
     
 }
@@ -97,7 +103,7 @@
     width: 250px;
     height: 250px;
     margin-left: 350px;
-    margin-top: -45px;
+    margin-top: -15px;
 }
 
 .img-luisma img{
@@ -110,7 +116,7 @@
 #contenedor-nosotros .alvaro{
     margin-top: 100px;
     width: 50%;
-    height: 350px;
+    height: 500px;
 }
 
 #contenedor-nosotros .alvaro h2{

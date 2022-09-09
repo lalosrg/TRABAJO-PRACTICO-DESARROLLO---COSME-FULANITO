@@ -93,7 +93,8 @@ border: 2px solid;
 
 .btn_neon{
     justify-content: center;
-    margin-left: 740px;
+    margin-left: 40%;
+    margin-right: 40%;
     align-items: center;
     position: relative;
     display: inline-block;
@@ -102,6 +103,7 @@ border: 2px solid;
     letter-spacing: 2px;
     font-size: 20px;
     text-decoration: none;
+    text-align: center;
     overflow: hidden;
     transition: 0.2s;
 }
