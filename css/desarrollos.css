@@ -1,0 +1,136 @@
+.banner_desarrollos{
+    margin-top: 90px;
+    width: 100%;
+    height: 650px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: linear-gradient(to right, #2c3e50c7, #bdc3c752), url(../img/desarrollos1.jpg);   /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50c7, #bdc3c752), url(../img/desarrollos1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.banner_desarrollos .desa h2{
+    font-size: 6rem;
+    top: 220px;
+    left: 650px;
+    position: relative;
+    
+    text-shadow: 0 0 30px rgb(255, 255, 255); 
+}
+
+.ola {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.pi{
+    font-size: 30px;
+    text-align: center;
+}
+
+.main_desarrollos {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+    background: #fff;
+
+}
+
+.card_desarrollos{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background: white;
+    box-shadow: 0 15px 45px rgb(0, 0, 0, 0.90);
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.card_desarrollos:hover{
+    width: 1000px;
+
+}
+
+.card_desarrollos .imgbox{
+    position: relative;
+    min-width: 500px;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+.card_desarrollos:hover .imgbox{
+    transform: rotate(-15deg);
+}
+
+.card_desarrollos .imgbox img{
+    width: 100%;
+}
+
+.card_desarrollos .detalles{
+    position: relative;
+    min-width: 300px;
+    background: #f3d424;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: black;
+}
+
+.card_desarrollos .detalles::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #fff;
+}
+
+.card_desarrollos .detalles .comprar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_desarrollos .detalles .comprar .precio{
+    font-size: 3em;
+}
+
+.card_desarrollos .detalles .comprar .btn_detalles{
+    background: #fff;
+    padding: 0;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 25px;
+}
+
+.card_desarrollos .detalles .comprar .btn_detalles a{
+    text-decoration: none;
+    padding: 15px;
+}
+
+.card_desarrollos .detalles .comprar .btn_detalles:hover{
+    background: rgb(10, 10, 10);
+}
+
+.card_desarrollos .detalles .comprar .btn_detalles a:hover{
+    text-decoration: none;
+    color: #fff;
+    
+}

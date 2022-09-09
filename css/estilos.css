@@ -5,6 +5,10 @@
 @import url(equipo.css);
 @import url(reseña.css);
 @import url(contacto.css);
+@import url(desarrollos.css);
+@import url(subastas.css);
+@import url(alquileres.css);
+@import url(venta.css);
 
 
 body{
