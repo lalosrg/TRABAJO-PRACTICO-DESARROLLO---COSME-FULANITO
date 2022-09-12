@@ -1,23 +1,28 @@
 .reseña{
-
+    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height:  500px;
+    height:  600px;
     background: #fff;
 }
 
+.ola_reseñas{
+    width: 100%;
+    position: relative;
+
+    
+}
 
 .reseña h2{
-    
     font-size: 35px;
-    margin-top: 20px;
+    margin-top: 45px;
     text-align: center;
 }
 
 .reseña p{
-    margin-top: 350px;
+    
     text-align: center;
     margin: 20px;
     margin-left: 100px;

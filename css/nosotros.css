@@ -3,7 +3,7 @@
 .media {
   
     align-items: center;
-    height: 687px;
+    height: 692px;
     width: 100%;
     background: #d68a80;
     z-index: 1;
@@ -13,7 +13,7 @@
 
  
 .banner-overlay {
-    height: 687px;
+    height: 692px;
     width: 100%;
     position: absolute;
     background: black;

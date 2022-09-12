@@ -1,11 +1,10 @@
 
 .equipo{
-    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 625px;
+    height: 750px;
     background-color: #95da1534;
 }
 
@@ -16,12 +15,24 @@
     text-align: center;
 }
 
+.ola_equipo {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.ola_equipo_dos{
+    width: 100%;
+    position: relative;
+    bottom: 248px;  
+}
+
 
 
 .card {
     position: relative;
     width: 300px;
-    height: 350px;
+    height: 360px;
     margin: 20px;  
     margin-bottom: 300px;
     cursor: pointer;
