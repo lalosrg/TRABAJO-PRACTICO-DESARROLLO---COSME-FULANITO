@@ -24,9 +24,18 @@
     width: 100%;
 }
 
+::selection{
+
+    background: #f3d424;
+    color:#ffffff;
+
+}
+
+
 .pi{
     font-size: 30px;
     text-align: center;
+    
 }
 
 .main_desarrollos {
