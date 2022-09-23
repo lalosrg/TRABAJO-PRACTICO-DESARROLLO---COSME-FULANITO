@@ -32,10 +32,12 @@
 
 .main_desarrollos {
     margin-bottom: 150px;
+    margin-top:50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 950px;
+    padding: 25px;
+    height: 500px;
     background: #fff;
 
 }
@@ -46,7 +48,7 @@
     width: 500px;
     height: 500px;
     background: white;
-    box-shadow: 0 15px 45px rgb(0, 0, 0, 0.90);
+    box-shadow: 0 15px 45px rgba(196, 205, 21, 0.9);
     overflow: hidden;
     transition: 0.5s;
     cursor: pointer;
@@ -67,6 +69,7 @@
     justify-content: center;
     align-items: center;
     transition: 0.5s;
+    box-shadow: rgb(245, 11, 11);
 
 }
 
