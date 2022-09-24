@@ -152,6 +152,11 @@ footer .wave#wave4{
     animation: animateWave_02 3s linear infinite;
 }
 
+iframe{
+    border: #f3d424;
+    margin-bottom: 200px;
+}
+
 @keyframes animateWave{
     0%
     {
