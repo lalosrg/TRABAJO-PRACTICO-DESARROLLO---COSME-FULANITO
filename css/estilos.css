@@ -154,8 +154,6 @@ footer .wave#wave4{
 
 .videoiframe{    
     border: #f3d424;
-    border-style:solid;
-    border-width: 10px;
     margin-bottom: 200px;
     display: flex;
     flex-direction: column;
