@@ -152,9 +152,20 @@ footer .wave#wave4{
     animation: animateWave_02 3s linear infinite;
 }
 
-iframe{
+.videoiframe{    
     border: #f3d424;
+    border-style:solid;
+    border-width: 10px;
     margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+a{
+
+    color:#000
 }
 
 @keyframes animateWave{
