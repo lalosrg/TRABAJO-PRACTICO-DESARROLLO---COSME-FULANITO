@@ -60,7 +60,7 @@
 
 }
 
-.card_desarrollos .imgbox{
+.card_desarrollos .imgbox a{
     position: relative;
     min-width: 500px;
     width: 500px;
@@ -69,7 +69,7 @@
     justify-content: center;
     align-items: center;
     transition: 0.5s;
-    box-shadow: rgb(245, 11, 11);
+    box-shadow: rgb(245, 241, 11);
 
 }
 
