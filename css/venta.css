@@ -15,7 +15,6 @@
     top: 350px;
     text-align: center;
     position: relative;
-    
     text-shadow: 0 0 30px rgb(255, 255, 255); 
 }
 
@@ -25,65 +24,62 @@
     width: 100%;
 }
 
-.pi{
-    font-size: 30px;
-    text-align: center;
+
+.general_categorias{
+    height: 1300px;
 }
 
-.main_desarrollos {
-    margin-bottom: 150px;
-    margin-top:50px;
+.main_venta {
+    margin-bottom: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
-    height: 500px;
+    height: 600px;
     background: #fff;
 
 }
 
-.card_desarrollos{
+.card_venta{
     display: flex;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 430px;
+    height: 430px;
     background: white;
-    box-shadow: 0 15px 45px rgba(196, 205, 21, 0.9);
+    box-shadow: 0 5px 20px rgba(243, 239, 6, 0.719);
     overflow: hidden;
     transition: 0.5s;
     cursor: pointer;
     border-radius: 16px;
 }
 
-.card_desarrollos:hover{
-    width: 1000px;
+.card_venta:hover{
+    width: 50%;
 
 }
 
-.card_desarrollos .imgbox a{
+.card_venta .imgbox{
     position: relative;
-    min-width: 500px;
-    width: 500px;
+    min-width: 430px;
+    width: 430px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
-    box-shadow: rgb(245, 241, 11);
 
 }
 
-.card_desarrollos:hover .imgbox{
+.card_venta:hover .imgbox{
     transform: rotate(-15deg);
 }
 
-.card_desarrollos .imgbox img{
+.card_venta .imgbox img{
     width: 100%;
 }
 
-.card_desarrollos .detalles{
+.card_venta .detalles{
     position: relative;
-    min-width: 300px;
+    min-width: 350px;
     background: #f3d424;
     display: flex;
     flex-direction: column;
@@ -91,11 +87,11 @@
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    padding: 15px;
+    padding: 10px;
     color: black;
 }
 
-.card_desarrollos .detalles::before{
+.card_venta .detalles::before{
     content: "";
     position: absolute;
     left: 0;
@@ -106,16 +102,16 @@
     border-left: 10px solid #fff;
 }
 
-.card_desarrollos .detalles .comprar{
+.card_venta .detalles .comprar{
     display: flex;
     justify-content: space-between;
 }
 
-.card_desarrollos .detalles .comprar .precio{
+.card_venta .detalles .comprar .precio{
     font-size: 3em;
 }
 
-.card_desarrollos .detalles .comprar .btn_detalles{
+.card_venta .detalles .comprar .btn_detalles{
     background: #fff;
     padding: 0;
     padding: 15px;
@@ -123,17 +119,40 @@
     border-radius: 25px;
 }
 
-.card_desarrollos .detalles .comprar .btn_detalles a{
+.card_venta .detalles .comprar .btn_detalles a{
     text-decoration: none;
     padding: 15px;
+    color: #000;
 }
 
-.card_desarrollos .detalles .comprar .btn_detalles:hover{
+.card_venta .detalles .comprar .btn_detalles:hover{
     background: rgb(10, 10, 10);
 }
 
-.card_desarrollos .detalles .comprar .btn_detalles a:hover{
+.card_venta .detalles .comprar .btn_detalles a:hover{
     text-decoration: none;
     color: #fff;
     
+}
+
+.videoiframe {
+    width: 565px;
+    height: 315px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    
+ 
+}
+
+.videoiframe iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.videoiframe h2{
+    text-align: center;
 }

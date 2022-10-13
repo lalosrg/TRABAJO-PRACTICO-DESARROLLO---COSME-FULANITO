@@ -30,38 +30,38 @@
     text-align: center;
 }
 
-.main_desarrollos {
-    margin-bottom: 150px;
+.main_subastas {
+    margin-bottom: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 950px;
+    height: 700px;
     background: #fff;
-
 }
 
-.card_desarrollos{
+.card_subastas{
+    margin-bottom: 140px;
     display: flex;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 430px;
+    height: 430px;
     background: white;
-    box-shadow: 0 15px 45px rgb(0, 0, 0, 0.90);
+    box-shadow: 0 5px 20px rgba(243, 239, 6, 0.719);
     overflow: hidden;
     transition: 0.5s;
     cursor: pointer;
     border-radius: 16px;
 }
 
-.card_desarrollos:hover{
+.card_subastas:hover{
     width: 1000px;
 
 }
 
-.card_desarrollos .imgbox{
+.card_subastas .imgbox{
     position: relative;
-    min-width: 500px;
-    width: 500px;
+    min-width: 430px;
+    width: 430px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -70,15 +70,15 @@
 
 }
 
-.card_desarrollos:hover .imgbox{
+.card_subastas:hover .imgbox{
     transform: rotate(-15deg);
 }
 
-.card_desarrollos .imgbox img{
+.card_subastas .imgbox img{
     width: 100%;
 }
 
-.card_desarrollos .detalles{
+.card_subastas .detalles{
     position: relative;
     min-width: 300px;
     background: #f3d424;
@@ -92,7 +92,7 @@
     color: black;
 }
 
-.card_desarrollos .detalles::before{
+.card_subastas .detalles::before{
     content: "";
     position: absolute;
     left: 0;
@@ -103,16 +103,16 @@
     border-left: 10px solid #fff;
 }
 
-.card_desarrollos .detalles .comprar{
+.card_subastas .detalles .comprar{
     display: flex;
     justify-content: space-between;
 }
 
-.card_desarrollos .detalles .comprar .precio{
+.card_subastas .detalles .comprar .precio{
     font-size: 3em;
 }
 
-.card_desarrollos .detalles .comprar .btn_detalles{
+.card_subastas .detalles .comprar .btn_detalles{
     background: #fff;
     padding: 0;
     padding: 15px;
@@ -120,16 +120,17 @@
     border-radius: 25px;
 }
 
-.card_desarrollos .detalles .comprar .btn_detalles a{
+.card_subastas .detalles .comprar .btn_detalles a{
     text-decoration: none;
     padding: 15px;
+    color: #000;
 }
 
-.card_desarrollos .detalles .comprar .btn_detalles:hover{
+.card_subastas .detalles .comprar .btn_detalles:hover{
     background: rgb(10, 10, 10);
 }
 
-.card_desarrollos .detalles .comprar .btn_detalles a:hover{
+.card_subastas .detalles .comprar .btn_detalles a:hover{
     text-decoration: none;
     color: #fff;
     

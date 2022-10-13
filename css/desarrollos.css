@@ -24,37 +24,29 @@
     width: 100%;
 }
 
-::selection{
-
-    background: #f3d424;
-    color:#ffffff;
-
-}
-
-
 .pi{
     font-size: 30px;
     text-align: center;
-    
 }
 
-.main_desarrollos {
-    margin-bottom: 150px;
+.main_desarrollo {
+    margin-bottom: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 700px;
     background: #fff;
 
 }
 
 .card_desarrollos{
+    margin-bottom: 150px;
     display: flex;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 430px;
+    height: 430px;
     background: white;
-    box-shadow: 0 15px 45px rgb(0, 0, 0, 0.90);
+    box-shadow: 0 5px 20px rgba(243, 239, 6, 0.719);
     overflow: hidden;
     transition: 0.5s;
     cursor: pointer;
@@ -68,8 +60,8 @@
 
 .card_desarrollos .imgbox{
     position: relative;
-    min-width: 500px;
-    width: 500px;
+    min-width: 430px;
+    width: 430px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -131,6 +123,7 @@
 .card_desarrollos .detalles .comprar .btn_detalles a{
     text-decoration: none;
     padding: 10px;
+    color: #000;
 }
 
 .card_desarrollos .detalles .comprar .btn_detalles:hover{

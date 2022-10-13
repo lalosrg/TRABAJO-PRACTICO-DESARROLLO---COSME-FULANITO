@@ -89,7 +89,7 @@ footer .menu_footer li a
     color: white;
     margin: 0 10px;
     display: inline-block;
-    text-decoration: none;
+   text-decoration: none;
     opacity: 1;
     
 }
@@ -105,12 +105,6 @@ footer p{
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 1.0em;
-}
-
-footer ::selection{
-    background: #f3d424;
-    color:#000;
-
 }
 
 footer .wave{
@@ -150,20 +144,6 @@ footer .wave#wave4{
     opacity: 0.7;
     bottom: 20px;
     animation: animateWave_02 3s linear infinite;
-}
-
-.videoiframe{    
-    border: #f3d424;
-    margin-bottom: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
-}
-
-a{
-
-    color:#000
 }
 
 @keyframes animateWave{

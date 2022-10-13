@@ -3,19 +3,21 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 1250px;
     background: #fff;
 }
 
-.contenedor-categorias1{
-    display:grid;
-    width: 100%;
-    grid-template-columns: 3fr 2fr;
+.contenedor-categorias{
+    width: 72%;
+    /*display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
 }
 
 
 
-.contenedor-categorias1 figure {
+.contenedor-categorias figure {
     position: relative;
     height: 490px;
     /*idth: 450px;*/
@@ -26,13 +28,13 @@
     margin: 15px;
 }
 
-.contenedor-categorias1 figure img{
+.contenedor-categorias figure img{
     width: 100%;
     height: 100%;
     transition: all 1000ms ease-out;
 }
 
-.contenedor-categorias1 figure .capa{
+.contenedor-categorias figure .capa{
     position: absolute;
     top: 0;
     width: 100%;
@@ -43,71 +45,16 @@
     visibility: hidden;
 }
 
-.contenedor-categorias1 figure:hover > .capa{
+.contenedor-categorias figure:hover > .capa{
     opacity: 1;
     visibility: visible;
 }
 
-.contenedor-categorias1 figure:hover > img{
-    transform: scale(1.1);
+.contenedor-categorias figure:hover > img{
+    transform: scale(1.2);
 }
 
-.contenedor-categorias1 figure  .capa p{
-    
-    color: black;
-    font-size: 13px;
-    width: 100%;
-    max-width: 220px;
-    margin: auto;
-    transition: all 500ms ease-out;
-}
-
-.contenedor-categorias2{
-    display:grid;
-    width: 100%;
-    grid-template-columns: 2fr 3fr;
-}
-
-
-
-.contenedor-categorias2 figure {
-    position: relative;
-    height: 490px;
-    /*idth: 450px;*/
-    overflow: hidden;
-    border-radius: 18px;
-    box-shadow: 0px 15px 25px rgba(0, 0, 0,0.9);
-    cursor: pointer;
-    margin: 15px;
-}
-
-.contenedor-categorias2 figure img{
-    width: 100%;
-    height: 100%;
-    transition: all 1000ms ease-out;
-}
-
-.contenedor-categorias2 figure .capa{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(231, 218, 38, 0.212);
-    transition: all 900ms ease-out;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.contenedor-categorias2 figure:hover > .capa{
-    opacity: 1;
-    visibility: visible;
-}
-
-.contenedor-categorias2 figure:hover > img{
-    transform: scale(1.1);
-}
-
-.contenedor-categorias2 figure  .capa p{
+.contenedor-categorias figure  .capa p{
     
     color: black;
     font-size: 13px;
