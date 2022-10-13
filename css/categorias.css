@@ -17,7 +17,7 @@
 
 
 
-.contenedor-categorias figure {
+.contenedor-categorias a {
     position: relative;
     height: 490px;
     /*idth: 450px;*/
@@ -28,13 +28,13 @@
     margin: 15px;
 }
 
-.contenedor-categorias figure img{
+.contenedor-categorias a img{
     width: 100%;
     height: 100%;
     transition: all 1000ms ease-out;
 }
 
-.contenedor-categorias figure .capa{
+.contenedor-categorias a .capa{
     position: absolute;
     top: 0;
     width: 100%;
@@ -45,16 +45,16 @@
     visibility: hidden;
 }
 
-.contenedor-categorias figure:hover > .capa{
+.contenedor-categorias a:hover > .capa{
     opacity: 1;
     visibility: visible;
 }
 
-.contenedor-categorias figure:hover > img{
+.contenedor-categorias a:hover > img{
     transform: scale(1.2);
 }
 
-.contenedor-categorias figure  .capa p{
+.contenedor-categorias a  .capa p{
     
     color: black;
     font-size: 13px;

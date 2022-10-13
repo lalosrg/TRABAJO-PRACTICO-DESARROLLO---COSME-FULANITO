@@ -45,7 +45,7 @@
     width: 430px;
     height: 430px;
     background: white;
-    box-shadow: 0 5px 20px rgba(243, 239, 6, 0.719);
+    box-shadow: 0 10px 30px rgba(2, 2, 2, 0.829);
     overflow: hidden;
     transition: 0.5s;
     cursor: pointer;
