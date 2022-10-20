@@ -144,7 +144,7 @@ translateZ(300px);}
 
 @media screen and (max-width: 600px){
     .reseña  .info-reseña p{
-        font-size: 10px;
+        font-size: 14px;
     }
     .content-all{
         width: 130px;

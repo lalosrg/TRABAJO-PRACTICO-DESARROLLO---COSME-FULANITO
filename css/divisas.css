@@ -109,9 +109,9 @@ select:focus, input:focus, button:focus{
     outline: 0;
 }
 
-@media (max-width:798px) {
+@media (max-width:840px) {
     .divisas .container-moneda{
-        width: 70vh;
+        width: 55vh;
     }
     .divisas .moneda input{
         font-size: 25px;
@@ -120,7 +120,7 @@ select:focus, input:focus, button:focus{
 
 @media (max-width:518px){
     .divisas .container-moneda{
-        width: 50vh;
+        width: 45vh;
     }
 
     .divisas .moneda select{

@@ -72,7 +72,7 @@
 }
 
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 950px) {
     .contenedor-categorias{
         display: flex;
         flex-direction: column;       
