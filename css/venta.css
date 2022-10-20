@@ -185,7 +185,12 @@
     }
 }
 
-@media screen and (max-width: 940px){   
-  
+@media screen and (max-width: 870px){   
+    .card_venta:hover{
+        width: 430px;
+        height: 860px;
+        display: flex;
+        flex-direction: column;
+    }
 
 }
