@@ -16,6 +16,12 @@ body{
     font-family: 'DynaPuff', cursive;     
 }
 
+::selection{
+    background-color: #f3d424;
+    color:#fff;
+
+}
+
 * {
             margin: 0; 
             padding: 0;

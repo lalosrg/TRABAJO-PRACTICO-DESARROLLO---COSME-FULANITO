@@ -91,11 +91,13 @@ font-weight: bold;
 border: 2px solid;
 }
 
-.btn_neon{
+section .btn_neon{
     background: #f3d4242f;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 39%;
+    margin-right: 39%;
     justify-content: center;
-    margin-left: 40%;
-    margin-right: 40%;
     align-items: center;
     position: relative;
     display: inline-block;
@@ -182,3 +184,42 @@ border: 2px solid;
 }
 
 
+@media screen and (max-width: 822px) {
+    section .btn_neon{
+       margin-left: 30%;
+       margin-right: 30%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    section .btn_neon{
+       margin-left: 20%;
+       margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 570px){
+    #formulario form {
+        width: 300px;
+    }
+    textarea {
+        width: 300px;
+    }
+    .campo, textarea{
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 470px){
+    #formulario form {
+        width: 250px;
+    }
+    textarea {
+        width: 250px;
+    }
+    .campo, textarea{
+        width: 250px;
+    }
+
+}

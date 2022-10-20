@@ -4,10 +4,12 @@
     width: 100%;
     background: #f3d424;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    height: 92px;
+    flex-wrap: wrap;
+    height: 90px;
     padding: 5px 10%;
+
 
 }
 
@@ -15,20 +17,27 @@
     cursor: pointer;
     margin-right: auto;
     color: #000;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
     
 }
 
 .header .logo img {
     height: 85px;
     width: auto;
-    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .header .logo h1{
     font-size: 20px;
     float: right;
     text-align: center;
-    margin-top: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .header .nav_links{
@@ -37,6 +46,9 @@
 
 .header .nav_links li{
     display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 0 15px;
 }
 
@@ -48,6 +60,9 @@
     font-size: 700;
     color: #000;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .header .nav_links li a:hover{
@@ -64,6 +79,9 @@
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .header .btn_header button:hover{

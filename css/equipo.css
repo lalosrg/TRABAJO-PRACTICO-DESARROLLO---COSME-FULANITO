@@ -4,8 +4,99 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 750px;
+    width: 100%;
+    height: 709px;
     background-color: #95da1534;
+    
+}
+
+
+
+@media screen and (max-width:1320px) {
+    .equipo{
+        height: 1098px;
+    }
+    
+}
+
+@media screen and (max-width:1308px) {
+    .equipo{
+        height: 1099px;
+    }
+    
+}
+
+@media screen and (max-width:1129px) {
+    .equipo{
+        height: 1117px;
+    }
+}
+
+@media screen and (max-width:858px) {
+    .equipo{
+        height: 1137px;
+    }
+}
+
+@media screen and (max-width:674px) {
+    .equipo{
+        height: 1156px;
+    }
+}
+
+@media screen and (max-width:659px) {
+    .equipo{
+        height: 1936px;
+    }
+}
+
+@media screen and (max-width:597px) {
+    .equipo{
+        height: 1955px;
+    }
+}
+
+@media screen and (max-width:546px) {
+    .equipo{
+        height: 1973px;
+    }
+}
+
+
+@media screen and (max-width:514px) {
+    .equipo{
+        height: 1992px;
+    }
+}
+
+@media screen and (max-width:452px) {
+    .equipo{
+        height: 2011px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .equipo{
+        height: 2030px;
+    }
+}
+
+@media screen and (max-width:424px) {
+    .equipo{
+        height: 2049px;
+    }
+}
+
+@media screen and (max-width:406px) {
+    .equipo{
+        height: 2068px;
+    }
+}
+
+@media screen and (max-width:386px) {
+    .equipo{
+        height: 2087px;
+    }
 }
 
 
@@ -22,22 +113,26 @@
 }
 
 .ola_equipo_dos{
-    width: 100%;
     position: relative;
-    bottom: 248px;  
+    width: 100%;   
+    bottom: 0px;     
 }
-
 
 
 .card {
     position: relative;
     width: 300px;
     height: 360px;
-    margin: 20px;  
-    margin-bottom: 300px;
+    margin: 15px;  
+  
     cursor: pointer;
-   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 .card .face{
     position: absolute;
@@ -47,6 +142,10 @@
     border-radius: 10px;
     overflow: hidden;
     transition: .5s;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .card .front {
@@ -59,6 +158,10 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -83,6 +186,9 @@
     justify-content: space-between;
     text-align: center;
     box-shadow: 0 5px 10px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card .back h3 {
@@ -102,4 +208,7 @@
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
 }
+
+
+
 

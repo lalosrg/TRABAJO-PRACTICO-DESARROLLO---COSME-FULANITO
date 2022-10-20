@@ -15,9 +15,9 @@
     box-shadow: 0 0 30px #0a0a0a;
     justify-content: center;
     align-items: center;
-    width: 60vh;
+    width: 90vh;
     border-radius: 15px;
-    padding: 40px;
+    padding: 30px;
 }
 
 
@@ -64,7 +64,7 @@
     padding: 10px 20px 10px 10px;
     background: #bb15157a;
     border: 0;   
-    font-size: 16px;
+    font-size: 20px;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
@@ -79,9 +79,12 @@
     background: #b1b1b17a;
     border: 0;
     border-radius: 5px;
-    font-size: 32px;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
     text-align: right;
     margin: 10px;
+   
 }
 
 .campo-divisas:focus, textarea:focus{
@@ -106,8 +109,25 @@ select:focus, input:focus, button:focus{
     outline: 0;
 }
 
-@media (max-width:600px) {
-    .moneda input{
-        width: 200px;
+@media (max-width:798px) {
+    .divisas .container-moneda{
+        width: 70vh;
+    }
+    .divisas .moneda input{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:518px){
+    .divisas .container-moneda{
+        width: 50vh;
+    }
+
+    .divisas .moneda select{
+        font-size: 8px;
+    }
+
+    .divisas .moneda input{
+        font-size: 18px;
     }
 }
