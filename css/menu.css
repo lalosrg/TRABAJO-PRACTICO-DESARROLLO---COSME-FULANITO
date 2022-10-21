@@ -52,7 +52,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 12px;
+    font-size: 15px;
 }
 
 .header .nav_links li:hover{
@@ -60,7 +61,7 @@
 }
 
 .header .nav_links a{
-    font-size: 700;
+    font-size: 15px;
     color: #000;
     text-decoration: none;
     justify-content: center;
@@ -75,9 +76,9 @@
 .header .btn_header button{
     margin-left: 20px;
     font-weight: 900;
-    color: #000;
+    color: #fff;
     padding: 9px 25px;
-    background: #fff;
+    background: #7405b4;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -91,14 +92,18 @@
 
 .header .btn_header button:hover{
 
-    background: #000;
+    background: rgb(189, 14, 14);
     color: #fff;
     transform: scale(1.1);
 }
 
 .menu-icono img{
-    width: 40px;
-    height: 40px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
     background-color: #f3d424;
     float: right;
 
@@ -108,7 +113,7 @@
     display: none;
 }
 
-@media (max-width:890px){
+@media (max-width:980px){
     .menu-ham{
 
         display: block;
@@ -164,6 +169,10 @@
         align-items:center;
         margin-top: 19px;
         margin-left: 70%;
+    }
+
+    .header .logo h1{
+        font-size: 16px;
     }
 
 
