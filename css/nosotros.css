@@ -144,6 +144,30 @@
     }
 }
 
+    #contenedor-nosotros{
+        height: 1300px;
+    }
+    .lalo{
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .info-lalo{
+        width: 100%;
+        float: none;
+    
+    }
+    .lalo .img-lalo{
+        width: 100%;
+        float: none;
+        display: flex;
+
+    }
+}
+
+
 
 
 
