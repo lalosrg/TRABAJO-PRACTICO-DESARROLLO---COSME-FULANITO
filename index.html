@@ -242,16 +242,16 @@
             <div class="content-all">   
                 <br>        
                  <div class="content-carousel">
-                     <figure><img src="img/tarjetaned.jpg" ></figure>
-                     <figure><img src="img/tarjetaneddoc.jpg" ></figure>
-                     <figure><img src="img/tarjetasnake.jpg" ></figure>
-                      <figure><img src="img/tarjetamau.jpg" ></figure>
+                    <figure><img src="img/tarjetaned.jpg" ></figure>
+                    <figure><img src="img/tarjetaneddoc.jpg" ></figure>
+                    <figure><img src="img/tarjetasnake.jpg" ></figure>
+                    <figure><img src="img/tarjetamau.jpg" ></figure>
                     <figure><img src="img/tarjetamelvin.jpg" ></figure>
-                     <figure><img src="img/tarjetatodd.jpg" ></figure>
-                     <figure><img src="img/tarjetalenny.jpg" ></figure>
-                      <figure><img src="img/tarjetakirk.jpg" ></figure>
-                      <figure><img src="img/gorgo.jpg"></figure>
-                      <figure><img src="img/tarjetaburns.jpg" ></figure>
+                    <figure><img src="img/tarjetatodd.jpg" ></figure>
+                    <figure><img src="img/tarjetalenny.jpg" ></figure>
+                    <figure><img src="img/tarjetakirk.jpg" ></figure>
+                    <figure><img src="img/gorgo.jpg"></figure>
+                    <figure><img src="img/tarjetaburns.jpg" ></figure>
                  </div>
              </div>
         </div>
@@ -279,28 +279,28 @@
             <div class="contenedor-contacto">   
                 
                 <div id="formulario">
-               <form action="">
-                   <label>Nombres:</label><br />
-                   <input type="text" class="campo" id="tfNombre" placeholder="Ingrese sus nombres."><br />
+                    <form>
+                        <label for="tfNombre">Nombres:</label><br />
+                        <input type="text" class="campo" id="tfNombre" placeholder="Ingrese sus nombres."><br />
 
-                   <label>Apellidos:</label><br />
-                   <input type="text" class="campo" id="tfApellidos" placeholder="Ingrese sus apellidos."><br />
+                        <label>Apellidos:</label><br />
+                        <input type="text" class="campo" id="tfApellidos" placeholder="Ingrese sus apellidos."><br />
 
-                   <label>Correo electrónico:</label><br />
-                   <input type="email" class="campo" id="tfcorrreo" placeholder="cosmefulanito@gmail.com"><br />
+                        <label>Correo electrónico:</label><br/>
+                        <input type="email" class="campo" id="tfCorreo" placeholder="cosmefulanito@gmail.com"><br />
 
-                   <label>Numero de telefono:</label><br />
-                   <input type="number" class="campo" id="tftelefono" placeholder="(011) _ _ _ _ _ _ _ _ "><br />
+                        <label>Numero de telefono:</label><br/>
+                        <input type="number" class="campo" id="tfTelefono" placeholder="(011) _ _ _ _ _ _ _ _ "><br />
 
-                   <label>Asunto:</label><br />
-                   <input type="text" class="campo" id="tfAsunto" placeholder="Ingrese asunto."><br />
+                        <label>Asunto:</label><br />
+                        <input type="text" class="campo" id="tfAsunto" placeholder="Ingrese asunto."><br />
 
-                   <label>Mensaje:</label><br />
-                   <textarea id="tfMensaje" cols="30" rows="10" placeholder="Ingrese hasta 50 caracteres."></textarea><br />
-                   <input type="submit" value="Enviar formulario!" class="boton">
+                        <label>Mensaje:</label><br />
+                        <textarea id="tfMensaje" cols="30" rows="10" maxlength="140" placeholder="Ingrese hasta 140 caracteres."></textarea><br />
+                        <input type="submit" onclick="return validarFormulario()" value="Enviar formulario!" class="boton">
 
-                   
-                </form>
+                        
+                        </form>
             </div> 
         </section>
                
@@ -335,10 +335,10 @@
         <p>© Cosme Fulanito | Codo a Codo 4.0</p>
 
     </footer>
-    <script src="/js/main.js"></script>
+    
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
+    <script>src="./js/formulario.js"</script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
