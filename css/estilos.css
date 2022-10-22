@@ -48,6 +48,36 @@ section {
     margin-bottom: 25px;
 }
 
+.btn-wsp{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    right: 25px; 
+    background: rgb(21, 207, 67);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 1002;
+    transition: all 1s;
+}
+
+.btn-wsp:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+    background-color: #fff;
+    color: rgb(21, 207, 67);
+    border: 2px solid;
+}
+
+@media screen and (max-width:1182px) {
+    .btn-wsp{
+        position: absolute;
+    }
+}
+
 footer{
     position: relative;
     width: 100%;
