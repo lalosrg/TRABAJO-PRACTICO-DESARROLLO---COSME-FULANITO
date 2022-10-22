@@ -118,7 +118,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 35px;
-    margin-left: 350px;
+    margin-left: 100px;
 }
 
 .luisma:hover{
@@ -142,6 +142,19 @@
         flex-direction: column;
         width: 100%;
     }
+
+    .luisma{
+        height: 400px;
+        float:none;
+        display: flex;
+        flex-direction: row;
+
+    }
+    .luisma .info-luisma{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:1040px) {
@@ -150,6 +163,7 @@
     }
     .lalo{
         height: 500px;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -164,7 +178,28 @@
         width: 100%;
         float: none;
         display: flex;
+        justify-content: center;
 
+    }
+    .luisma{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .info-luisma{
+        width: 100%;
+        float: none;
+    
+    }
+    .luisma .img-luisma{
+        width: 100%;
+        float: none;
+        display: flex;
+        justify-content: center;
+        margin-right: 32px;
     }
 }
 
