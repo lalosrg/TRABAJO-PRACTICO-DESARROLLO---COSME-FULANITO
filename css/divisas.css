@@ -15,7 +15,7 @@
     box-shadow: 0 0 30px #0a0a0a;
     justify-content: center;
     align-items: center;
-    width: 90vh;
+    width: 75vh;
     border-radius: 15px;
     padding: 30px;
 }
@@ -114,7 +114,7 @@ select:focus, input:focus, button:focus{
         width: 55vh;
     }
     .divisas .moneda input{
-        font-size: 25px;
+        font-size: 28px;
     }
 }
 
@@ -124,10 +124,10 @@ select:focus, input:focus, button:focus{
     }
 
     .divisas .moneda select{
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .divisas .moneda input{
-        font-size: 18px;
+        font-size: 22px;
     }
 }
