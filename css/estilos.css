@@ -10,7 +10,7 @@
 @import url(alquileres.css);
 @import url(venta.css);
 @import url(divisas.css);
-
+@import url(nosotros.css);
 
 body{
     font-family: 'DynaPuff', cursive;   
@@ -53,6 +53,66 @@ body{
     border: 2px solid;
 }
 
+.btn-flan{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    left: 30px; 
+    background: rgb(21, 207, 67);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 1;
+    transition: all 1s;
+}
+
+.btn-flan img{
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    border-radius: 50px;
+}
+
+.btn-flan img:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+    background-color:#7405b4;
+   
+}
+
+.btn-esp{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    left: 30px; 
+    background: rgba(0, 0, 0, 0.248);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 1;
+    transition: all 1s;
+}
+
+.btn-esp img{
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    border-radius: 50px;
+    transition: all 1s;
+}
+
+.btn-esp img:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+    background-color:#fff;
+   
+}
 
 @media screen and (max-width:1182px) {
     .btn-wsp{
