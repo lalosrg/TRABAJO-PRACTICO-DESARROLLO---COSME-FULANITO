@@ -6,7 +6,7 @@ var asunto = document.getElementById("tfAsunto");
 var mensaje = document.getElementById("tfMensaje");
 var error = document.getElementById("error");
 
-function validarFormularioF(){
+function validarFormulario(){
 
     if(nombre.value === null || nombre.value === ""){
         alert("Olvidaste incluir tu nombreciillo")
